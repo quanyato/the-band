@@ -51,7 +51,7 @@ html {
 #home {
     margin-top: 46px;
     padding-top: 50%;
-    background: url(./assets/img/wavee.jpg) top center / cover no-repeat;
+    background: url(/assets/img/wavee.jpg) top center / cover no-repeat;
 }
 
 .content-section {

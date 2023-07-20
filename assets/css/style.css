@@ -55,7 +55,7 @@ html {
 }
 
 .content-section {
-    padding: 3% 20%;
+    padding: 5% 20%;
 }
 
 .content-section>h1 {
@@ -86,21 +86,20 @@ html {
 }
 
 #profile {
-    margin: 30px auto;
-    width: -moz-fit-content;
-    width: fit-content;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #profile>.card {
     margin: 0px 20px;
-    display:inline-block;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 20%;
 }
 
 #profile>.card>img {
-    border-radius: 10px;
-    height: 200px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 #profile>.card>h1 {
@@ -111,12 +110,13 @@ html {
 }
 
 #tour-ticket {
-    margin-top: 20px;
+    margin: 20px 0px;
     background-color: whitesmoke;
     width: 100%;
 }
 
 #tour-ticket li {
+    font-weight: 500;
     list-style: none;
     padding: 10px 20px;
     border: 1px solid rgb(28, 26, 65);
@@ -142,4 +142,45 @@ html {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+}
+
+#tour-place {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tour-order {
+    margin: 0 3%;
+    box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    background-color: whitesmoke;
+    color: rgb(28, 26, 65);
+}
+
+.tour-order img {
+    width: 100%;
+}
+
+.tour-order .tour-infor {
+    padding: 10px 20px;
+}
+
+.tour-order .tour-infor h2 {
+    margin: 10px 0px;
+    padding: 3px 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: rgb(28, 26, 65);
+    color: whitesmoke;
+}
+
+.tour-order .tour-infor h2:hover {
+    cursor:pointer;
+    margin: 10px 0px;
+    padding: 3px 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: rgb(55, 53, 97);
+    color: whitesmoke;
 }

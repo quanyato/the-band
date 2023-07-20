@@ -55,7 +55,7 @@ html {
 }
 
 .content-section {
-    padding: 3% 10%;
+    padding: 3% 20%;
 }
 
 .content-section>h1 {
@@ -108,4 +108,38 @@ html {
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
+}
+
+#tour-ticket {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#tour-ticket li {
+    list-style: none;
+    padding: 10px 20px;
+    border: 1px solid rgb(28, 26, 65);
+    color: rgb(28, 26, 65);
+    font-size: 1.5rem;
+}
+
+#tour-ticket #sold-out {
+    font-size: 1.2rem;
+    margin: 0 20px;
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+}
+
+#tour-ticket #ticket-quantity {
+    text-align: center;
+    line-height: 20px;
+    float: right;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }

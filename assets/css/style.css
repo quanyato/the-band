@@ -55,7 +55,7 @@ html {
 }
 
 .content-section {
-    padding: 3% 20%;
+    padding: 3% 10%;
 }
 
 .content-section>h1 {
@@ -109,6 +109,7 @@ html {
     text-transform: uppercase;
     text-align: center;
 }
+<<<<<<< HEAD
 
 #tour-ticket {
     margin-top: 20px;
@@ -184,3 +185,5 @@ html {
     background-color: rgb(55, 53, 97);
     color: whitesmoke;
 }
+=======
+>>>>>>> parent of fb8a8c2 (add tour list content)
